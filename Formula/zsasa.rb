@@ -30,6 +30,6 @@ class Zsasa < Formula
   end
 
   test do
-    assert_match "zsasa", shell_output("#{bin}/zsasa --version")
+    assert_match "zsasa", shell_output("#{bin}/zsasa --version 2>&1")
   end
 end
