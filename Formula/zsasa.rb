@@ -20,7 +20,7 @@ class Zsasa < Formula
       sha256 "021aedb246b7a1d75cc46e1dde52e6f59ee806317515ce0b3ba1fde03321b147"
     else
       url "https://github.com/N283T/zsasa/releases/download/v#{version}/zsasa-#{version}-linux-x86_64"
-      sha256 "67c4555f631f46baaab96e1267d35b6e9e4c5381c7027c4d9162bfbd05108844"
+      sha256 "60317544c758922dcd71983987359a8f9f7cbdcdb0e7c4840ea3f1e6d5eb3848"
     end
   end
 
