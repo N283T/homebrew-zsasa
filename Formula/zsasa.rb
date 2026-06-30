@@ -2,25 +2,25 @@ class Zsasa < Formula
   desc "Fast Solvent Accessible Surface Area (SASA) calculator"
   homepage "https://n283t.github.io/zsasa/"
   license "MIT"
-  version "0.7.0"
+  version "0.7.1"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/N283T/zsasa/releases/download/v#{version}/zsasa-#{version}-macos-aarch64"
-      sha256 "082120bcb418da0163f061041cd38a37122b9734ee37e351fab2cc4416fe2696"
+      sha256 "7e828004765c0f9f75530ef4fc57650c2eabbfafb3d11d4a41fcb38df060aaca"
     else
       url "https://github.com/N283T/zsasa/releases/download/v#{version}/zsasa-#{version}-macos-x86_64"
-      sha256 "31549a47326e68244f43a18f5e56fd22ca208fdcd240246a0e27b34ef7eae6e3"
+      sha256 "6c60aeae342ea560e1cd471788f486065a09f4b63c2ed27423e5cecea752202a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/N283T/zsasa/releases/download/v#{version}/zsasa-#{version}-linux-aarch64"
-      sha256 "e238c3813804933ebeb5676d9aa3000aec65b3a6f7ff8386d0db1e2ed872ca7b"
+      sha256 "10e94c96345729d3913aa8d6bfda789ff71e839dd1824cf6a7755053686d6838"
     else
       url "https://github.com/N283T/zsasa/releases/download/v#{version}/zsasa-#{version}-linux-x86_64"
-      sha256 "7cade48c5acd2d228af5696a77c2805aa7c574bdc3202cc171017695506fc34d"
+      sha256 "ead38aad2a463244f8e961e607a7872dc7945f3c2b0906b3e092e355d7e21cba"
     end
   end
 
